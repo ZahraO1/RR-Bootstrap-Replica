@@ -1,9 +1,17 @@
 import './App.css';
+import TopBar from './TopBar';
+import StoreListing from './StoreListing';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Background from './Background';
 
+import CardLayout from './CardLayout';
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <TopBar/>
+      <Background/>
+      {/* <StoreListing/> */}
+      <CardLayout/>
     </div>
   );
 }
